@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+<style>
+  /* Base Style basato su landing_page_v2 */
+  body { 
+    font-family: 'Manrope', sans-serif; 
+    color: #141414; 
+    line-height: 1.6; 
+    padding: 0; 
+    margin: 0; 
+    background-color: #f9fafb; 
+  }
+  
+  .container { 
+    max-width: 850px; 
+    margin: 40px auto; 
+    background-color: #ffffff; 
+    border: 1px solid #e5e7eb; 
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05); 
+    border-radius: 16px; 
+    overflow: hidden; 
+  }
+
+  /* Header con Blu Var Group */
+  .header { 
+    background: #ffffff; 
+    color: #141414; 
+    padding: 60px 50px 40px 50px; 
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  .report-label { 
+    text-transform: uppercase; 
+    letter-spacing: 0.1em; 
+    font-size: 13px; 
+    color: #1032cf; /* Blu istituzionale */
+    font-weight: 700; 
+    margin-bottom: 12px; 
+    display: block; 
+  }
+  
+  .title { 
+    font-size: 36px; 
+    font-weight: 800; 
+    margin: 0; 
+    color: #141414; 
+    line-height: 1.2;
+  }
+  
+  /* Badge Archetipo e Score Style "Agent Card" */
+  .score-container { 
+    display: flex; 
+    gap: 15px; 
+    margin-top: 30px; 
+  }
+  
+  .score-card { 
+    background: #ffffff; 
+    padding: 20px; 
+    border-radius: 12px; 
+    flex: 1; 
+    text-align: center; 
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+  }
+  
+  .score-value { 
+    font-size: 28px; 
+    font-weight: 800; 
+    color: #1032cf; 
+    display: block; 
+  }
+  
+  .score-label { 
+    font-size: 12px; 
+    text-transform: uppercase; 
+    font-weight: 600;
+    color: #6b7280; 
+  }
+  
+  .archetype-badge { 
+    background: #1032cf; 
+    color: white; 
+    padding: 8px 20px; 
+    border-radius: 99px; 
+    font-size: 14px; 
+    font-weight: 600; 
+    display: inline-block; 
+    margin-top: 20px; 
+  }
+
+  /* Content Typography */
+  .content { padding: 50px; background-color: #fff; }
+  
+  h2 { 
+    color: #1032cf; 
+    font-size: 24px; 
+    font-weight: 700;
+    margin-top: 45px; 
+    margin-bottom: 20px;
+  }
+  
+  h3 { 
+    color: #141414; 
+    font-size: 19px; 
+    font-weight: 700;
+    margin-top: 30px; 
+  }
+  
+  p { margin-bottom: 1.2em; color: #374151; font-size: 16px; }
+  
+  strong { color: #141414; font-weight: 700; }
+
+  /* Elementi Grafici */
+  hr { border: 0; border-top: 1px solid #f3f4f6; margin: 40px 0; }
+  
+  /* Footer */
+  .footer { 
+    background: #f9fafb; 
+    padding: 30px; 
+    font-size: 12px; 
+    color: #9ca3af; 
+    text-align: center; 
+    border-top: 1px solid #eee; 
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="report-label">iSquared Index™ — Assessment</span>
+      <h1 class="title">Il tuo Report AI Readiness</h1>
+      
+      <div class="archetype-badge">Archetipo: Pioneer</div>
+      
+      <div class="score-container">
+        <div class="score-card">
+          <span class="score-label">Competenza Individuale</span>
+          <span class="score-value">75%</span>
+        </div>
+        <div class="score-card">
+          <span class="score-label">Maturità Organizzativa</span>
+          <span class="score-value">53%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <br><h1>iSquared Index - Report di Maturità AI</h1><br><strong>Data:</strong> 23/02/2026<br><strong>Archetipo:</strong> Pioneer<br><strong>Punteggio Individuale:</strong> 75/100<br><strong>Punteggio Organizzativo:</strong> 53/100<br><hr></p><p><h1 style="color:#002d5b;">iSquared Index™ - Report di Assessment AI Readiness Individuale</h1><br><br><h2 style="color:#002d5b; border-bottom:2px solid #3a96ff; padding-bottom:5px; margin-top:30px;">Introduzione</h2><br><br>L'analisi che segue si fonda sulle 10 dimensioni chiave del modello iSquared, progettato per valutare la prontezza all'adozione dell'Intelligenza Artificiale a livello individuale e organizzativo. Questo assessment ti aiuterà a comprendere meglio le tue capacità attuali e le opportunità per migliorare l'integrazione dell'AI nel tuo contesto lavorativo.<br><br><h2 style="color:#002d5b; border-bottom:2px solid #3a96ff; padding-bottom:5px; margin-top:30px;">Analisi Archetipo</h2><br><br>In qualità di <strong>Pioneer</strong>, dimostri un approccio proattivo e ottimistico verso l'adozione dell'AI. Vedi l'Intelligenza Artificiale come una risorsa promettente, in grado di liberarti da compiti routinari e potenziare le tue competenze lavorative. Questa visione è essenziale per guidare l'innovazione e favorire il cambiamento positivo all'interno del tuo ambiente lavorativo.<br><br><h2 style="color:#002d5b; border-bottom:2px solid #3a96ff; padding-bottom:5px; margin-top:30px;">Interpretazione Gap</h2><br><br>Il confronto tra il tuo score individuale (75%) e quello organizzativo (53%) evidenzia il tuo ruolo di <strong>pioniere</strong> nell'adozione dell'AI. La tua capacità di integrare soluzioni avanzate, come GPT personalizzati e agenti sviluppati con n8n e Copilot Studio, sottolinea un livello di sofisticazione che può essere di ispirazione per l'intera organizzazione. <br><br>Tuttavia, si rileva una sfida sistemica comune nel settore, rappresentata da processi operativi ancora poco digitalizzati. Questa situazione offre un'opportunità unica per te di guidare l'organizzazione verso una maggiore digitalizzazione, sfruttando appieno le potenzialità dell'AI.<br><br>Continua a coltivare il tuo approccio autonomo alla formazione e all'innovazione, poiché rappresenti un asset fondamentale per il progresso tecnologico della tua azienda.</p><p><hr></p><p><h2 style="color:#002d5b; border-bottom:2px solid #3a96ff; padding-bottom:5px; margin-top:30px;">2. Dimensioni Individuali</h2><br><br><h3 style="color:#0056b3; margin-top:20px;">1. COMPETENZA PRATICA & STRUMENTI</h3><br><br>In ambito di competenza pratica, dimostri un uso quotidiano dell'Intelligenza Artificiale sia per la produttività personale che per lo sviluppo. Questo frequente utilizzo sottolinea la tua familiarità e comfort con le tecnologie AI, evidenziando un'integrazione significativa nella tua routine lavorativa. <br><br>La sofisticazione del tuo toolkit emerge in modo prominente attraverso la creazione di GPT personalizzati e l'utilizzo di agenti sviluppati con strumenti avanzati come n8n e Copilot Studio. Questo approccio attivo, che si discosta dall'uso passivo e limitato a semplici interazioni di chat, illustra un elevato livello di padronanza e innovazione nell'applicazione pratica dell'AI.<br><br><h3 style="color:#0056b3; margin-top:20px;">2. LEARNING AGILITY & MINDSET</h3><br><br>La tua propensione a mantenerti aggiornato attraverso la consultazione quotidiana di blog e siti di informazione è un punto di forza critico. Questo approccio proattivo e autonomo alla formazione continua ti consente di restare al passo con le rapide evoluzioni del settore. Sebbene l'azienda fornisca strumenti come corsi di formazione, la tua capacità di integrare autonomamente queste risorse rappresenta un elemento distintivo nel tuo sviluppo professionale.<br><br>Mentre l'azienda può migliorare nel fornire supporto formativo, la tua iniziativa personale nel cercare e utilizzare risorse esterne ti posiziona come un leader di pensiero e un esempio di auto-miglioramento continuo. Questa autonomia non solo arricchisce il tuo bagaglio di conoscenze, ma ti prepara anche a guidare con successo nell'attuale panorama tecnologico in rapida evoluzione.</p><p><hr></p><p><h2 style="color:#002d5b; border-bottom:2px solid #3a96ff; padding-bottom:5px; margin-top:30px;">3. IL TUO CONTESTO ORGANIZZATIVO PERCEPITO</h2><br><br><h3 style="color:#0056b3; margin-top:20px;">Visione Strategica</h3><br><br>La tua percezione dell'intelligenza artificiale come una grande opportunità per potenziare le competenze lavorative rappresenta un punto di forza significativo. Questo atteggiamento positivo e proattivo verso l'AI può fungere da catalizzatore per l'innovazione e la crescita personale all'interno dell'organizzazione.<br><br>Tuttavia, si rileva una sfida comune nel settore riguardante la percezione dell'AI come mero strumento di efficienza piuttosto che di crescita strategica. Questa rappresenta un'opportunità per l'organizzazione di ampliare la propria visione strategica, coinvolgendo maggiormente i dipendenti nel processo di trasformazione digitale.<br><br><h3 style="color:#0056b3; margin-top:20px;">Democratizzazione dell'AI</h3><br><br>La scommessa dell'azienda sull'AI è un chiaro segnale di impegno verso l'innovazione, un punto di forza che può essere ulteriormente valorizzato. Il tuo coinvolgimento attivo suggerisce che esiste un potenziale per diffondere queste pratiche in tutta l'organizzazione.<br><br>Si presenta una sfida sistemica nel rendere la formazione e gli strumenti AI accessibili a tutti i dipendenti. Questo non deve essere visto come una limitazione, ma come un'opportunità per sviluppare programmi di formazione inclusivi, che democratizzino l'accesso alle competenze AI.<br><br><h3 style="color:#0056b3; margin-top:20px;">Maturità Digitale</h3><br><br>La spinta propulsiva verso la digitalizzazione è un aspetto positivo che evidenzia l’intenzione dell’organizzazione di evolversi. Questo slancio rappresenta una solida base per il futuro sviluppo tecnologico.<br><br>Tuttavia, l'esistenza di attività ancora manuali indica una sfida sistemica dell'infrastruttura. Questa situazione offre un'opportunità preziosa per migliorare i processi operativi, promuovendo una maggiore integrazione tecnologica e riducendo la dipendenza da sistemi tradizionali come Excel.</p><p><hr></p><p><h2 style="color:#002d5b; border-bottom:2px solid #3a96ff; padding-bottom:5px; margin-top:30px;">5. OPPORTUNITÀ DI BUSINESS IDENTIFICATE</h2><br><br>In base alle risposte fornite, emerge un chiaro valore strategico per l'azienda nell'adozione dell'AI. Il potenziamento delle capacità della forza lavoro rappresenta una significativa opportunità di business, consentendo di sfruttare l'AI per incrementare la produttività e l'efficienza operativa. Tuttavia, si evidenzia l'importanza critica della protezione dei dati e della privacy, una sfida sistemica comune nel settore. Questo scenario rappresenta un'opportunità per implementare soluzioni robuste di sicurezza dei dati, rafforzando la fiducia e la compliance.<br><br><h2 style="color:#002d5b; border-bottom:2px solid #3a96ff; padding-bottom:5px; margin-top:30px;">6. FOCUS AUTOMAZIONE: DELEGA AI TASK RIPETITIVI</h2><br><br>È stato identificato un forte interesse nel delegare attività ripetitive e amministrative, come la gestione delle email di follow-up e appuntamenti, a soluzioni AI. Questa preferenza evidenzia un'opportunità per sviluppare strumenti di automazione che liberino risorse umane da compiti routinari, aumentando la produttività.<br><br>Inoltre, si riscontra una significativa disponibilità al cambiamento e un coinvolgimento proattivo nell'ottimizzazione di tali attività, dimostrando l'apertura a collaborare nello sviluppo di soluzioni innovative. Questa attitudine positiva verso il cambiamento rappresenta un asset prezioso per facilitare l'adozione di nuove tecnologie all'interno dell'organizzazione.</p><p><hr></p><p><h2 style="color:#002d5b; border-bottom:2px solid #3a96ff; padding-bottom:5px; margin-top:30px;">7. PIANO DI SVILUPPO</h2><br><br><h3 style="color:#0056b3; margin-top:20px;">Fase 1: Sperimentazione (0-30 Giorni)</h3><br><br><strong>Punti di Forza:</strong><br>Hai dimostrato un livello avanzato nell'utilizzo di strumenti AI, come la creazione di GPT personalizzati e l'uso di agenti sviluppati con n8n e Copilot Studio. Questo ti posiziona come un pioniere nel tuo settore, con una competenza tecnica che ti permette di esplorare nuove soluzioni innovative.<br><br><strong>Opportunità di Miglioramento:</strong><br>Si rileva una sfida sistemica comune nel settore, che rappresenta un'opportunità di digitalizzazione. Nei prossimi 30 giorni, focalizzati sull'espansione delle tue competenze attraverso l'esplorazione di ulteriori tool AI avanzati. Potresti considerare di sviluppare progetti pilota che sfruttino le funzionalità avanzate di questi strumenti per ottimizzare i processi interni.<br><br><h3 style="color:#0056b3; margin-top:20px;">Fase 2: Integrazione (30-60 Giorni)</h3><br><br><strong>Punti di Forza:</strong><br>Hai identificato chiaramente le attività amministrative come un'area chiave per l'automazione, mostrando un forte interesse a partecipare allo sviluppo di soluzioni per delegare questi compiti.<br><br><strong>Opportunità di Miglioramento:</strong><br>Nei successivi 30 giorni, lavora sull'integrazione delle soluzioni AI sviluppate nella fase di sperimentazione per automatizzare le attività amministrative. Coinvolgi i team operativi per testare e ottimizzare queste soluzioni, garantendo che siano allineate con le esigenze aziendali e migliorino l'efficienza operativa.<br><br><h3 style="color:#0056b3; margin-top:20px;">Fase 3: Advocacy (60-90 Giorni)</h3><br><br><strong>Punti di Forza:</strong><br>La tua visione dell'AI come opportunità per potenziare le competenze lavorative rappresenta un asset significativo per l'organizzazione.<br><br><strong>Opportunità di Miglioramento:</strong><br>Nei prossimi 30 giorni, concentrati sul ruolo di advocacy all'interno dell'azienda. Condividi i successi ottenuti nelle fasi precedenti con i tuoi colleghi e il management. Organizza workshop o presentazioni per mostrare l'impatto positivo delle soluzioni AI implementate. Questo approccio può aiutare a promuovere una cultura aziendale più aperta all'adozione dell'AI.<br><br><h3 style="color:#0056b3; margin-top:20px;">Risorse Consigliate</h3><br><br>- <strong>Newsletter di Raffaele Gaito:</strong> Per rimanere aggiornato sulle ultime tendenze nel mondo dell'AI e del business.<br>- <strong>Podcast di Dwarkesh Patel:</strong> Approfondimenti e discussioni su AI e innovazione tecnologica.<br>- <strong>Libri sulle vendite B2B e AI:</strong> Per comprendere meglio come l'AI può trasformare le vendite e migliorare le strategie di business.<br><br>Concludiamo esprimendo il nostro impegno nel supportarti in questo percorso di crescita e innovazione tecnologica.<br><br>Cordiali saluti,  <br>iSquared Index™</p><p><hr><br>*Report generato con metodologia iSquared Index. Riservato e confidenziale.*<br>
+    </div>
+
+    <div class="footer">
+      <strong>iSquared Index © 2026 | Var Group Digital Strategy</strong><br>
+      Analisi generata tramite intelligenza artificiale basata su metodologia proprietaria iSquared.<br>
+      Riservato e confidenziale.
+    </div>
+  </div>
+</body>
+</html>
